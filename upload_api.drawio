@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T14:24:58.423Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zi8hFvNG805JLR3U5GnZ" version="18.2.0" type="github"><diagram id="S5xlquYNel37NOYG4V8v" name="Page-1">3VjbbtswDP2aPA6I49z62GTpVqwtBhTDsEfFYmxtsulKci77+lE2bcdNWqRDi15eAumIMinyHFpxL5yn2y9G5Mk1StC9QV9ue+Hn3mAwHU/p1wO7ChhOGYiNkhUUtMCt+gsM9hktlATbMXSI2qm8C0aYZRC5DiaMwU3XbIW66zUXMRwAt5HQh+hPJV3Cxxr1W/wrqDipPQd9XklFbcyATYTEzR4ULnrh3CC6apRu56B97uq8VPsuHlhtAjOQuVM23NnZxa/Lq8XZTX5z5a4n829p+Imfsha64AP/yDUKSdj590sO3O3qbDjYkq9Z4lJNQEBD6wz+gTlqNIRIWIlCe5OV0rpGM8xo/0xoFWc0jShgIHy2BuMUpfqcF1Ilpfc02yTKwW0uIu92Q7wizGCRSfBn6dOMw6YHwPbBfARNlomdgCk4syMT3hBOuDDMzJCnm7bMZwwlexWuzQQTK24e3OaeBpz+J5RiclCKg/SDJG7yFI1LMMZM6EWL3stSa3OFmHPFfoNzOxaaKBx261n59I4eTyvFhYWJ4JEDcfxOmBjcI3bh8TIZ0MKpdTeOZ8/64CDrIorAWpXFfmvq2wO1DYNpGdJdAdbRaInSxygyrxQr1pU5JZOED1IJ3/GUoYaEHON+GdsiBQ+Q/QSBPYMC7gkgCA4VEIRHJDB5KQlMP5oEwhMlMHxNCYQHWacub0TkKlIbkA3Tl96EzuNfA40qWCRvlOSD4QksHxxh+filWH720Vg+PJHlo9dk+fBI1sclyaRa0zD2Q4qfWa9V2edx5Q+28X1dCidWRqR0GyWi1C3fo+W90hyXSuQ5bWtXFPmetzermWHw1t4MdQAfRzSjE0Uzfk3RjE4RjS1yMCrNkS9NzPxKBpUkqhfGvPoXlJcK4qvTLl2i9nMkxrYvk3cll9Gbu0iNT6rb0R72f9VzdYdcCttut3T95ZtxAuVFOYXWn8q8oe+Rdu3dK723EzJZ7xSuXd0oSmh7L2/acMvBMmL2IGx5BptjZt8dqUajDqma7wj7pBofIVXDviewiqbth4hybe9rTrj4Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-02T12:37:23.024Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="kYb3f9K2mq6OcpLQA0nf" version="18.2.0" type="github">
+  <diagram id="S5xlquYNel37NOYG4V8v" name="Page-1">
+    <mxGraphModel dx="868" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-1" value="Upload API" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsBFYILE9NpNLtM7CKm3-2" target="qsBFYILE9NpNLtM7CKm3-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-2" value="accessing image from request body and saving to media directory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="70" y="110" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qsBFYILE9NpNLtM7CKm3-3" target="dwSy9OWHpyl2Ijqfo0nz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-3" value="extracting red and blue text from image" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="240" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qsBFYILE9NpNLtM7CKm3-4" target="dwSy9OWHpyl2Ijqfo0nz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-4" value="&lt;div&gt;storing both the dataframes having data for blue and red color in a list.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qsBFYILE9NpNLtM7CKm3-5" target="dwSy9OWHpyl2Ijqfo0nz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-5" value="recognizing the shape from the extracted rois and storing coordinates in dataframe" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="570" y="105" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsBFYILE9NpNLtM7CKm3-6" value="&lt;div&gt;saving data for blue and red text, shapes and symbols to database and storing the same data in a csv file and sending that file with image having superimposed data as response&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="620" y="315" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwSy9OWHpyl2Ijqfo0nz-1" target="qsBFYILE9NpNLtM7CKm3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-1" value="extracting rois from images having red and blue text extracted and storing the coordinates in dataframe" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="105" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwSy9OWHpyl2Ijqfo0nz-5" target="qsBFYILE9NpNLtM7CKm3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-5" value="rendering shapes over image using coordinates stored in dataframe" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwSy9OWHpyl2Ijqfo0nz-9" target="dwSy9OWHpyl2Ijqfo0nz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-9" value="passing the image to vision api and storing the text and coordinates return by it in a variable named data" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwSy9OWHpyl2Ijqfo0nz-11" target="dwSy9OWHpyl2Ijqfo0nz-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-11" value="comparing the roi coordinates stored in dataframe and text coordinates returned by vision api to discard unwanted text as vision api will return all the text irrespective of color" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwSy9OWHpyl2Ijqfo0nz-13" target="dwSy9OWHpyl2Ijqfo0nz-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-13" value="only keep those text from vision api whose roi coordinates matches with roi coordinates of the images having extracted red and blue color" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwSy9OWHpyl2Ijqfo0nz-21" target="qsBFYILE9NpNLtM7CKm3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwSy9OWHpyl2Ijqfo0nz-21" value="prevent rendering the text given by the vision api for the shapes present in the image by comparing the coordinates of shape roi from dataframe to the roi coordinates given by visoin api" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="180" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
